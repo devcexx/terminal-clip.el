@@ -46,6 +46,10 @@ Edit your `init.el` and add the following code for loading the plugin:
 	(terminal-clip-mode t))
 ```
 
+Additionally, you may use more complex ways for automatically building
+the native libraries when starting Emacs. See [this code](https://github.com/devcexx/emacs-config/blob/master/config/avoc-terminal-clip.el)
+as an example.
+
 ## Troubleshooting
 
 ### CMake cannot find 'emacs-module.h'
